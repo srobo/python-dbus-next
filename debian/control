@@ -1,0 +1,23 @@
+Source: dbus-next
+Section: python
+Priority: optional
+Maintainer: SR Brain Team <kit-brain@studentrobotics.org>
+Build-Depends: debhelper-compat (= 10),
+               dh-python,
+               python3-all-dev (>= 3.6),
+               python3-setuptools,
+Standards-Version: 4.5.1
+X-Python3-Version: >= 3.6
+Homepage: https://github.com/altdesktop/python-dbus-next
+
+Package: python3-dbus-next
+Architecture: all
+Section: python
+Depends: ${misc:Depends},
+         ${python3:Depends},
+         ${shlibs:Depends},
+Description: The next great DBus library for Python.
+ python-dbus-next is a Python library for DBus that 
+ aims to be a fully featured high level library primarily 
+ geared towards integration of applications into Linux desktop 
+ and mobile environments.
